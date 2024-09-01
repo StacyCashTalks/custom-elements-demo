@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Star Wars: The Planets</h1>
+        <h1>Star Wars: The Planets (Demo Backup 😊)</h1>
         <div v-if="planets.length">
             <div v-for="planet in planets" :key="planet.name">
                 <h4>Planet Name: {{ planet.name }}</h4>

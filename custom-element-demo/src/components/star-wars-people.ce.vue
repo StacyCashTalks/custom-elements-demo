@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Star Wars: The Person</h1>
+        <h1>Star Wars: The Person (Demo Backup 😊)</h1>
         <div v-if="person">
             <h4>Character Name: {{ person.name }}</h4>
             <p>Height: {{ person.height }}</p>
