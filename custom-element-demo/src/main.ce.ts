@@ -5,5 +5,5 @@ import StarWarsPerson from './components/star-wars-people.ce.vue'
 const planetsCE = defineCustomElement(StarWarsPlanets)
 const personCE = defineCustomElement(StarWarsPerson)
 
-customElements.define('stacy-cloud-planets', planetsCE)
-customElements.define('stacy-cloud-person', personCE)
+customElements.define('starwars-planets', planetsCE)
+customElements.define('starwars-person', personCE)
